@@ -5,7 +5,7 @@ import Link from 'next/link'
 const PostCard = ({ post }) => {
   console.log(post)
   return (
-    <div className="rounded-lg bg-white p-0 shadow-lg lg:p-8 ">
+    <div className="rounded-lg bg-white p-0 shadow-lg lg:p-8 mb-8">
       <div className="relative mb-6 overflow-hidden pb-80 shadow-md">
         <img
           src={post.featuredImage.url}
