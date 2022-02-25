@@ -10,7 +10,7 @@ const posts = [
 
 const Home: NextPage = () => {
   return (
-    <div className="container mx-auto mb-8 bg-gray-300 px-10">
+    <div className="container mx-auto mb-8 px-10">
       {/* flex min-h-screen flex-col items-center justify-center py-2 */}
       <Head>
         <title>CMS Blog</title>
